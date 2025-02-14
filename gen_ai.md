@@ -110,7 +110,7 @@ Créer un abstract à partir de notes prises à la volée
 
 créer une instroduction à partir d'une table de matières
 
-...
+etc.
 
 <aside>
 
@@ -143,7 +143,7 @@ réaliser des traitements statistiques sur des données
 
 convertir des données d'un format à un autre (dates...)
 
-...
+etc.
 
 <aside>
 
