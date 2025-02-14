@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="fr">
+
+<head>
+	<title>CartesMD</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description"
+		content="Un outil libre et gratuit pour créer facilement des cartes à jouer et de les imprimer à partir d'un simple texte en Markdown. Outil créé par Cédric Eyssette et disponible sur LaForgeÉdu.">
+	<link rel="stylesheet" href="css/styles.min.css">
+	<link rel="stylesheet" type="text/css" href="css/print.min.css" media="print">
+	<link rel="icon" href="favicon.svg">
+</head>
+
+<body>
+
+	<header id="header">
+		<h1>CartesMD</h1>
+		<nav aria-label="Menu">
+			<ul>
+				<li>
+					<a href="#" id="toggleEditor"
+						data-title="Masquer ('Esc') ou afficher ('E') l'éditeur">
+						<span role="img" aria-label="Afficher ou masquer l'éditeur de cartes">👓</span>
+					</a>
+				</li>
+				<li>
+					<a href="#" id="printButton" data-title="Imprimer ('Ctrl+P')">
+						<span role="img" aria-label="Imprimer les cartes">🖨️</span>
+					</a>
+				</li>
+				<li>
+					<a href="#" id="orientationButton" data-title="Changer l'orientation des cartes ('Ctrl + Shift + O')">
+						<span role="img" aria-label="Changer l'orientation pour créer des cartes ou des flashcards">🔄</span>
+					</a>
+				</li>
+			</ul>
+		</nav>
+	</header>
+
+	<main>
+		<div id="editor"></div>
+		<div id="content"></div>
+	</main>
+	<style id="styleTheme"></style>
+	<style id="customStyles"></style>
+	<style id="rectoVerso"></style>
+	<style id="verso"></style>
+	<script src="script.min.js"></script>
+</body>
+
+</html>
